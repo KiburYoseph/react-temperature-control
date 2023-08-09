@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: black;
+  width: 30rem;
+  height: 40rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 50px 10px #888888;
+}
+
+.displaySection {
+  background-color: blue;
+  color: white;
+  width: 65%;
+  height: 50%;
+  border-radius: 100%;
+  border: solid 4px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+  transition: 300ms;
+}
+
+.buttonSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.buttonSection > button {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  font-size: 3rem;
+  background-color: rgb(156, 156, 156);
+  color: white;
+  border: none; 
+  transition: 300ms;
+  cursor: pointer; 
+}
+
+.buttonSection > button:hover {
+  background-color: white;
+  color: black;
+}
+
+.cold {
+  background-color: blue;
+}
+
+.normal {
+  background-color: rgb(101, 101, 151);
+}
+
+.hot {
+  background-color: rgb(241, 22, 22);
+}
